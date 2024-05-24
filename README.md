@@ -32,3 +32,34 @@ adicionar e remover itens de uma listagem, com intuito de ajudar na produtividad
 <a href="https://projectchallengetotolist-mand.vercel.app/" target="_blank">
 <img src="https://user-images.githubusercontent.com/71772559/178192066-d52e0cf7-906e-4baa-80f3-4b49dde153c0.png" />
 </a>
+
+&nbsp;
+
+## Desafio 02 - Pomodoro Timer
+![](./assets/screen_challenge02_pomodoro.png)
+
+- Neste desafio foi desenvolvido uma aplicação para realizar um efeito estilo pomodoro, ao qual o usuário seguirá a temática de tarefa vs. recompensa, com intuito de ajudar na produtividade no final do processo.
+
+### 🛠️ Ferramentas utilizadas no projeto
+- Vite
+- Typescript
+- Styled Components
+- React Router Dom
+- React Hook Form
+- Context API
+- Local Storage
+- Validações de formulário com Zod
+
+&nbsp;
+
+<a href="https://www.figma.com/design/YEogTGAeKeU5gvqWVQAbPf/Ignite-Timer-(Community)-(Copy)?t=RcWrpYQ0EcMjDNfY-0" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
+</a>
+<a href="./ProjectPomodoroTimer/" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192378-234b9c46-7e31-47fb-8ddf-245617d8b198.png" />
+</a>
+<a href="https://projectpomodorotimer-mand.vercel.app" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192066-d52e0cf7-906e-4baa-80f3-4b49dde153c0.png" />
+</a>
+
+&nbsp;
