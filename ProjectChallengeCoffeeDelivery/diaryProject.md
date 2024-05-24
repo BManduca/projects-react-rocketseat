@@ -33,8 +33,9 @@
 
 
 ## Ícones utilizados no projeto
-  - [Phosphor React Icons](https://www.npmjs.com/package/phosphor-react)
-    - Phosphor é conhecido por ser uma família de ícones bem flexível para interfaces, diagramas, apresentações e 
+
+- [Phosphor React Icons](https://www.npmjs.com/package/phosphor-react)
+  - Phosphor é conhecido por ser uma família de ícones bem flexível para interfaces, diagramas, apresentações e 
     o que mais for necessário. Para visualizar os ícones existentes, basta acessar: phosphoricons.com
 
   - Após criarmos nosso HeaderButton, será preciso fazer a estilização com relação as cores e os ícones importados e isso, podemos ver a seguir:
@@ -54,8 +55,7 @@
           </HeaderButton>
         </HeaderButtonContainer>
 
-
-  - Na estilização fizemos o seguinte, para 'pegar' a cor de maneira dinâmica:
+- Na estilização fizemos o seguinte, para 'pegar' a cor de maneira dinâmica:
 
     >
         ${({ variant, theme }) => css`
