@@ -101,7 +101,7 @@
 - ## Páginas e rotas
     - React Router Dom
 
-        - inicialmente para trabalhar com as rotas, iremos utilizar no projeto a famosa biblioteca react-router e como trbalharemos com aplicações Web, iremos usar especificamente o react-router-dom
+        - inicialmente para trabalhar com as rotas, iremos utilizar no projeto a famosa biblioteca react-router e como trabalharemos com aplicações Web, iremos usar especificamente o react-router-dom
 
         - instalação:
             - npm i react-router-dom
