@@ -74,9 +74,7 @@
 - Na estruturação do nosso componente de InfoWithoutIcon, utilizamos para tipagem o ReactNode
   - ReactNode é uma biblioteca JS para construção de interfaces de usuário
     e também é conhecido por ser uma abstração que representa qualquer
-    elemento que pode ser renderizado pelo React, incluindo elemento JSX, strings,
-    números, arrays e framents.
+    elemento que pode ser renderizado pelo React, incluindo elemento JSX, strings,números, arrays e framents.
     O ReactNode é usado para representar esses elementos
     de forma genérica, permitindo que você os manipule
     de maneira flexível em seus componentes.
-    
