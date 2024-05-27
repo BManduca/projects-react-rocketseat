@@ -2,7 +2,7 @@ import { styled } from 'styled-components'
 
 export const InfoWithoutIconContainer = styled.div`
   display: flex;
-  align-icons: center;
+  align-items: center;
   gap: 0.75rem;
 `
 

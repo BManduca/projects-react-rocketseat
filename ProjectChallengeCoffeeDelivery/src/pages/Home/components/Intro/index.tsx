@@ -7,7 +7,7 @@ import {
 import introImageCoffee from '../../../../assets/intro-coffee-image.png'
 import { RegularText } from '../../../../components/Typography'
 import { InfoWithoutIcon } from '../../../../components/InfoWithoutIcon'
-import { ShoppingCart } from 'phosphor-react'
+import { ShoppingCart, Timer, Package, Coffee } from 'phosphor-react'
 import { useTheme } from 'styled-components'
 
 export function Intro() {
@@ -28,13 +28,25 @@ export function Intro() {
           </section>
           <BenefitsContainer>
             <InfoWithoutIcon
-              iconBG={colors['brand-yellow-dark']}
               icon={<ShoppingCart weight="fill" />}
               text="Compra simples e segura"
+              iconBG={colors['brand-yellow-dark']}
             />
-            <p>Beneficio</p>
-            <p>Beneficio</p>
-            <p>Beneficio</p>
+            <InfoWithoutIcon
+              icon={<Package weight="fill" />}
+              text="Embalagem mantém o café intacto"
+              iconBG={colors['base-text']}
+            />
+            <InfoWithoutIcon
+              icon={<Timer weight="fill" />}
+              text="Entrega rápida e rastreada"
+              iconBG={colors['brand-yellow']}
+            />
+            <InfoWithoutIcon
+              icon={<Coffee weight="fill" />}
+              text="O café chega fresquinho até você"
+              iconBG={colors['brand-purple']}
+            />
           </BenefitsContainer>
         </div>
         <img src={introImageCoffee} alt="" />
