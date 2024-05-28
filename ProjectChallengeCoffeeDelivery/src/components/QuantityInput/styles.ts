@@ -31,4 +31,19 @@ export const IconWrapper = styled.button.attrs({
     e não como reset ou submit
   */
   type: 'button',
-})``
+})`
+  width: 0.875rem;
+  height: 0.875rem;
+  border: none;
+  background: none;
+  color: ${(props) => props.theme.colors['brand-purple']};
+  transition: 0.4s;
+
+  &:disabled {
+    opcacity: 0.4;
+  }
+
+  &:not(:disabled):hover {
+    color: ${(props) => props.theme.colors['brand-purple-dark']};
+  }
+`

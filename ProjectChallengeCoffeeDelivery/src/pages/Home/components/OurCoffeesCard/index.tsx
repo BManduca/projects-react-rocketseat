@@ -4,9 +4,12 @@ import {
   NameCoffee,
   OurCoffeesCardContainer,
   Tags,
+  AddCartWrapper,
 } from './styles'
 import cafeExpresso from '../../../../assets/Coffee.svg'
 import { RegularText, TitleText } from '../../../../components/Typography'
+import { QuantityInput } from '../../../../components/QuantityInput'
+import { ShoppingCart } from 'phosphor-react'
 
 export function OurCoffeesCard() {
   return (
@@ -28,6 +31,12 @@ export function OurCoffeesCard() {
             9,90
           </TitleText>
         </div>
+        <AddCartWrapper>
+          <QuantityInput />
+          <button>
+            <ShoppingCart size={22} weight="fill" />
+          </button>
+        </AddCartWrapper>
       </CardFooter>
     </OurCoffeesCardContainer>
   )
