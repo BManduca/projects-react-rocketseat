@@ -1,4 +1,5 @@
 import { styled } from 'styled-components'
+import { RegularText, TitleText } from '../../../../components/Typography'
 
 export const OurCoffeesCardContainer = styled.div`
   width: 100%;
@@ -8,6 +9,7 @@ export const OurCoffeesCardContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
   padding-top: 0;
 
@@ -36,5 +38,37 @@ export const Tags = styled.div`
     padding: 0.25rem 0.5rem;
     border-radius: 999px;
     font-weight: 700;
+  }
+`
+
+export const NameCoffee = styled(TitleText).attrs({
+  size: 's',
+  color: 'subtitle',
+  weight: '700',
+})`
+  margin-bottom: 0.5rem;
+`
+
+export const DescriptionCoffee = styled(RegularText).attrs({
+  size: 's',
+  color: 'label',
+})`
+  margin-bottom: 2rem;
+`
+
+export const CardFooter = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+    p {
+      line-height: 0.75rem;
+    }
   }
 `

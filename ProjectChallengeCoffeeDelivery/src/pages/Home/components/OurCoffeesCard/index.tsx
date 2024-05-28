@@ -1,5 +1,12 @@
-import { OurCoffeesCardContainer, Tags } from './styles'
+import {
+  CardFooter,
+  DescriptionCoffee,
+  NameCoffee,
+  OurCoffeesCardContainer,
+  Tags,
+} from './styles'
 import cafeExpresso from '../../../../assets/Coffee.svg'
+import { RegularText, TitleText } from '../../../../components/Typography'
 
 export function OurCoffeesCard() {
   return (
@@ -10,6 +17,18 @@ export function OurCoffeesCard() {
         <span>Tradicional</span>
         <span>Com leite</span>
       </Tags>
+      <NameCoffee>Expresso Tradicional</NameCoffee>
+      <DescriptionCoffee>
+        O tradicional café feito com água quente e grãos moídos
+      </DescriptionCoffee>
+      <CardFooter>
+        <div>
+          <RegularText size="s">R$</RegularText>
+          <TitleText size="m" color="text" as="strong">
+            9,90
+          </TitleText>
+        </div>
+      </CardFooter>
     </OurCoffeesCardContainer>
   )
 }
