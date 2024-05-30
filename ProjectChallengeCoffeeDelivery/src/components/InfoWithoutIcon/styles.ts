@@ -15,7 +15,7 @@ export const IconContainer = styled.div<IconContainerProps>`
   height: 2rem;
   border-radius: 50%;
   background: ${({ IconBG }) => IconBG};
-  color: ${(props) => props.theme.colors['base-white']};
+  color: ${({ theme }) => theme.colors['base-white']};
 
   display: flex;
   align-items: center;

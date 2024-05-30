@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 export const HeaderContainer = styled.header`
   width: 100%;
   height: 6.5rem;
-  background: ${(props) => props.theme.colors['base-background']};
+  background: ${({ theme }) => theme.colors['base-background']};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@ export const HeaderButton = styled.button<HeaderButtonProps>`
   border: none;
   padding: 0 0.5rem;
   position: relative;
-  font-size: ${(props) => props.theme.textSizes['text-regular-s']};
+  font-size: ${({ theme }) => theme.textSizes['text-regular-s']};
 
   ${({ variant, theme }) => css`
     background: ${theme.colors[`brand-${variant}-light`]};

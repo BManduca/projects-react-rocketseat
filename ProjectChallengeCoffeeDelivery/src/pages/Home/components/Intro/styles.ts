@@ -6,16 +6,16 @@ import { TitleText } from '../../../../components/Typography'
 export const IntroContainer = styled.section`
   width: 100%;
   height: 34rem;
-  background: ${(props) => `url(${introBackgroundImage}) no-repeat center,
+  background: ${({ theme }) => `url(${introBackgroundImage}) no-repeat center,
         /* 
             esse linear ele vai dar cor branca até a cor definida como base-background, 
             com uma opacidade baixa entre as duas
         */
         linear-gradient(
             0deg,
-            ${props.theme.colors['base-white']} 0%,
-            ${rgba(props.theme.colors['base-background'], 0.2)} 50%,
-            ${props.theme.colors['base-background']} 100%
+            ${theme.colors['base-white']} 0%,
+            ${rgba(theme.colors['base-background'], 0.2)} 50%,
+            ${theme.colors['base-background']} 100%
         )
   `};
   background-size: cover;

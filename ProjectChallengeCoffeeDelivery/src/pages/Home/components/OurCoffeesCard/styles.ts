@@ -3,7 +3,7 @@ import { RegularText, TitleText } from '../../../../components/Typography'
 
 export const OurCoffeesCardContainer = styled.div`
   width: 100%;
-  background: ${(props) => props.theme.colors['base-card']};
+  background: ${({ theme }) => theme.colors['base-card']};
   border-radius: 6px 36px 6px 36px;
   padding: 1.25rem;
   display: flex;
@@ -31,9 +31,9 @@ export const Tags = styled.div`
   flex-wrap: wrap;
 
   span {
-    background: ${(props) => props.theme.colors['brand-yellow-light']};
-    color: ${(props) => props.theme.colors['brand-yellow-dark']};
-    font-size: ${(props) => props.theme.textSizes['components-tag']};
+    background: ${({ theme }) => theme.colors['brand-yellow-light']};
+    color: ${({ theme }) => theme.colors['brand-yellow-dark']};
+    font-size: ${({ theme }) => theme.textSizes['components-tag']};
     text-transform: uppercase;
     padding: 0.25rem 0.5rem;
     border-radius: 999px;
@@ -83,14 +83,14 @@ export const AddCartWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: ${(props) => props.theme.colors['brand-purple-dark']};
-    color: ${(props) => props.theme.colors['base-card']};
+    background: ${({ theme }) => theme.colors['brand-purple-dark']};
+    color: ${({ theme }) => theme.colors['base-card']};
     border-radius: 0.375rem;
     margin-left: 0.3rem;
     transition: 0.4s;
 
     &:hover {
-      background: ${(props) => props.theme.colors['brand-purple']};
+      background: ${({ theme }) => theme.colors['brand-purple']};
     }
   }
 `
