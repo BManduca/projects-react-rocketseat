@@ -78,3 +78,25 @@
     O ReactNode é usado para representar esses elementos
     de forma genérica, permitindo que você os manipule
     de maneira flexível em seus componentes.
+
+
+## Page OrdeerConfirmed
+
+- para aplicarmos a bordar arredondada com gradiente como analisado no design(imagem a seguir), teremos que aplicar o hack do css
+
+![](./src/assets/OrderConfirmedBlockGradient.png)
+
+- O Hack do css é o seguinte, teremos que usar o before para a div que estamos trabalhando no local:
+
+  * Para a border-radius funcionar neste elemento, iremos aplicar os mesmos valores refinidos acima do before, porém, incrementando em cada um o valor da grossura estabelecido.
+    
+      >
+        &::before {
+          content: "";
+          position: abolsute;
+          inset: -1px;
+          border-radius: 0.4375rem 2.3125rem 0.4375rem 2.3125rem;
+          background: linear-gradient(102.89deg, #dbac2c 2.61%, #8047f8 98.76%);
+        }
+
+  * O inset de -1px, ele corresponde ao valor de menos o valor desejado, ou seja, se a border-width ou a grossura da borda for maior, teriamos que 'aumentar', mas como a largura no design é 1px, so colocaremos -1
