@@ -30,22 +30,22 @@ export function Intro() {
             <InfoWithoutIcon
               icon={<ShoppingCart weight="fill" />}
               text="Compra simples e segura"
-              iconBG={colors['brand-yellow-dark']}
+              iconBg={colors['brand-yellow-dark']}
             />
             <InfoWithoutIcon
               icon={<Package weight="fill" />}
               text="Embalagem mantém o café intacto"
-              iconBG={colors['base-text']}
+              iconBg={colors['base-text']}
             />
             <InfoWithoutIcon
               icon={<Timer weight="fill" />}
               text="Entrega rápida e rastreada"
-              iconBG={colors['brand-yellow']}
+              iconBg={colors['brand-yellow']}
             />
             <InfoWithoutIcon
               icon={<Coffee weight="fill" />}
               text="O café chega fresquinho até você"
-              iconBG={colors['brand-purple']}
+              iconBg={colors['brand-purple']}
             />
           </BenefitsContainer>
         </div>

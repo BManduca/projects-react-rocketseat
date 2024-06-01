@@ -100,3 +100,16 @@
         }
 
   * O inset de -1px, ele corresponde ao valor de menos o valor desejado, ou seja, se a border-width ou a grossura da borda for maior, teriamos que 'aumentar', mas como a largura no design é 1px, so colocaremos -1
+
+
+## Partindo para o backend
+
+### Utilizando immer
+    - Nesta parte estaremos aprendendo sobre o immer e aplicando esse biblioteca dentro do projeto
+    - O immer é uma biblioteca como mencionado acima, que usamos para trabalhar com dados imutáveis, ou seja, que trabalha com conceito de imutabilidade, que é algo que bem trabalhado dentro do react
+    - Repo
+        - https://github.com/immerjs/immer
+
+    * instalação
+        - npm i immer
+        

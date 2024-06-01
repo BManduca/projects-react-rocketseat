@@ -4,13 +4,13 @@ import { IconContainer, InfoWithoutIconContainer } from './styles'
 interface InfoWithoutIconProps {
   icon: ReactNode
   text: string | ReactNode
-  iconBG: string
+  iconBg: string
 }
 
-export function InfoWithoutIcon({ icon, text, iconBG }: InfoWithoutIconProps) {
+export function InfoWithoutIcon({ icon, text, iconBg }: InfoWithoutIconProps) {
   return (
     <InfoWithoutIconContainer>
-      <IconContainer IconBG={iconBG}>{icon}</IconContainer>
+      <IconContainer iconBg={iconBg}>{icon}</IconContainer>
       {typeof text === 'string' ? <p>{text}</p> : text}
     </InfoWithoutIconContainer>
   )
