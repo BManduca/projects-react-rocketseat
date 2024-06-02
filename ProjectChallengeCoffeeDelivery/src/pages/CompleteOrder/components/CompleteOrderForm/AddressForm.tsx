@@ -7,7 +7,12 @@ export function AddressForm() {
 
   return (
     <AddressFormContainer>
-      <Input placeholder="CEP" type="number" className="cep" />
+      <Input
+        placeholder="CEP"
+        type="number"
+        className="cep"
+        {...register('cep')}
+      />
       <Input placeholder="Rua" className="street" />
       <Input placeholder="Número" type="number" />
       <Input placeholder="Complemento" className="complement" />
