@@ -105,11 +105,20 @@
 ## Partindo para o backend
 
 ### Utilizando immer
-    - Nesta parte estaremos aprendendo sobre o immer e aplicando esse biblioteca dentro do projeto
-    - O immer é uma biblioteca como mencionado acima, que usamos para trabalhar com dados imutáveis, ou seja, que trabalha com conceito de imutabilidade, que é algo que bem trabalhado dentro do react
-    - Repo
-        - https://github.com/immerjs/immer
+  - Nesta parte estaremos aprendendo sobre o immer e aplicando esse biblioteca dentro do projeto
+  - O immer é uma biblioteca como mencionado acima, que usamos para trabalhar com dados imutáveis, ou seja, que trabalha com conceito de imutabilidade, que é algo que bem trabalhado dentro do react
+  - Repo
+      - https://github.com/immerjs/immer
 
-    * instalação
-        - npm i immer
+  * instalação
+      - npm i immer
         
+
+### Integrando React Hook Form com Zod
+  - Instalando o React Hook Form
+    - npm i react-hook-form
+
+  - Instalando o Zod, para fazer as validações 
+    - npm i zod
+
+  - Instalando o @hookform/resolvers para usar juntamente do Zod
