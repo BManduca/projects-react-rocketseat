@@ -1,4 +1,5 @@
-import { Button } from '../../../../components/Button'
+import { ButtonClean } from '../../../../components/ButtonClean'
+import { ButtonConfirmation } from '../../../../components/ButtonConfirmation'
 import { RegularText } from '../../../../components/Typography'
 import { useCart } from '../../../../hooks/useCart'
 import { formatMoney } from '../../../../utils/formatMoney'
@@ -13,6 +14,12 @@ export function ConfirmationSection() {
   const formattedItemsTotal = formatMoney(cartItemsTotal)
   const formattedCartTotal = formatMoney(cartTotal)
   const formatDeliveryPrice = formatMoney(DELIVERY_PRICE)
+
+  const { cleanCart } = useCart()
+
+  function handleCleanButtonCart() {
+    cleanCart()
+  }
 
   return (
     <ConfirmationSectionContainer>
@@ -32,10 +39,16 @@ export function ConfirmationSection() {
           R$ {formattedCartTotal}
         </RegularText>
       </div>
-      <Button
+      <ButtonConfirmation
         text="Confirmar pedido"
         disabled={cartQuantity <= 0}
         type="submit"
+      />
+      <ButtonClean
+        text="Limpar pedido"
+        disabled={cartQuantity <= 0}
+        type="button"
+        onClick={handleCleanButtonCart}
       />
     </ConfirmationSectionContainer>
   )

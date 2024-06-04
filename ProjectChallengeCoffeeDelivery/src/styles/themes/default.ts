@@ -12,6 +12,8 @@ export const defaultTheme = {
     'base-title': '#272221',
     'base-error': '#f84747',
     'brand-purple-dark': '#4B2995',
+    'brand-red': '#b91c1c',
+    'brand-red-light': '#ef4444',
     'brand-purple': '#8047F8',
     'brand-purple-light': '#EBE5F9',
     'brand-yellow-dark': '#C47F17',

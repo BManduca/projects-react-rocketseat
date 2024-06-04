@@ -1,10 +1,10 @@
-import styled from 'styled-components'
+import { styled } from 'styled-components'
 
-export const ButtonContainer = styled.button`
+export const ButtonCleanContainer = styled.button`
   padding: 0.75rem 2.8rem;
   color: ${({ theme }) => theme.colors['base-white']};
   font-weight: 700;
-  background: ${({ theme }) => theme.colors['brand-yellow']};
+  background: ${({ theme }) => theme.colors['brand-red']};
   font-size: ${({ theme }) => theme.textSizes['components-button-g']};
   border: none;
   border-radius: 0.375rem;
@@ -19,6 +19,6 @@ export const ButtonContainer = styled.button`
   }
 
   &:not(:disabled) {
-    background: ${({ theme }) => theme.colors['brand-yellow']};
+    background: ${({ theme }) => theme.colors['brand-red']};
   }
 `
