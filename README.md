@@ -46,8 +46,6 @@ adicionar e remover itens de uma listagem, com intuito de ajudar na produtividad
 - Styled Components
 - React Router Dom
 - React Hook Form
-- Context API
-- Local Storage
 - Validações de formulário com Zod
 
 &nbsp;
@@ -64,3 +62,41 @@ adicionar e remover itens de uma listagem, com intuito de ajudar na produtividad
 
 &nbsp;
 
+## Desafio 03 - Carrinho de compras de um Cafeteria
+![](./assets/screen_challenge03_carrinho_compras_cafeteria.png)
+
+- Neste desafio foi desenvolvido uma aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia.
+
+### 🛠️ Ferramentas utilizadas no projeto
+- Vite
+- Typescript
+- Styled Components
+- React Router Dom
+- React Hook Form
+- Validações de formulário com Zod
+
+### 📚 Conceitos utilizados no projeto:
+- Estados
+- ContextAPI
+- LocalStorage
+- Imutabilidade do estado
+- Listas e chaves no ReactJS
+- Propriedades
+- Componentização
+
+- De maneira complementar, para realizar o cálculo do valor total do carrinho de compras, </br>
+foi pesquisado e aplicado o método reduce para manipulação de arrays.
+
+&nbsp;
+
+<a href="https://www.figma.com/design/j5CaEwCho7ZPZaKmhlW4E3/Coffee-Delivery-•-Desafio-React-(Copy)?node-id=2-12&t=r7a1feU3f0bXv3tj-0" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
+</a>
+<a href="./ProjectChallengeCoffeeDelivery/" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192378-234b9c46-7e31-47fb-8ddf-245617d8b198.png" />
+</a>
+<a href="" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192066-d52e0cf7-906e-4baa-80f3-4b49dde153c0.png" />
+</a>
+
+&nbsp;
