@@ -82,9 +82,9 @@
 
 ## Page OrdeerConfirmed
 
-- para aplicarmos a bordar arredondada com gradiente como analisado no design(imagem a seguir), teremos que aplicar o hack do css
+- para aplicarmos a borda arredondada com gradiente como analisado no design(imagem a seguir), teremos que aplicar um hack do css
 
-![](./src/assets/OrderConfirmedBlockGradient.png)
+  ![](./src/assets/OrderConfirmedBlockGradient.png)
 
 - O Hack do css é o seguinte, teremos que usar o before para a div que estamos trabalhando no local:
 
@@ -122,3 +122,27 @@
     - npm i zod
 
   - Instalando o @hookform/resolvers para usar juntamente do Zod
+
+
+### Aplicando validação dos campos do form
+* obs.: validação efetuada através do zod
+
+  >
+      const confirmOrderFormValidationSchema = zod.object({
+        cep: zod.string().min(1, 'Informe o CEP!'),
+        street: zod.string().min(1, 'Informe a Rua!'),
+        number: zod.string().min(1, 'Informe o Número!'),
+        complement: zod.string(),
+        district: zod.string().min(1, 'Informe o Bairro!'),
+        city: zod.string().min(1, 'Informe a Cidade!'),
+        uf: zod.string().min(1, 'Informe a UF!'),
+      })
+
+
+### Utilização da pseudo-classe focus-within
+  - A pseudo-classe CSS :[focus-within](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:focus-within) representa um elemento que recebeu o foco ou contém um elemento que recebeu o foco.
+
+  - O focus-within foi aplicado no elemento InputStyleContainer que
+    passou de um input para uma div,
+    porém, com sub-elementos dentro dele, que ficariam
+    em foco, por isso, a utilização do focus-within.
