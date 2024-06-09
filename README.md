@@ -50,7 +50,7 @@ adicionar e remover itens de uma listagem, com intuito de ajudar na produtividad
 
 &nbsp;
 
-<a href="https://www.figma.com/design/YEogTGAeKeU5gvqWVQAbPf/Ignite-Timer-(Community)-(Copy)?t=RcWrpYQ0EcMjDNfY-0" target="_blank">
+<a href="https://www.figma.com/design/vt7MW1RSCifPESNMSLPm2C/Ignite-Timer-(Community)-(Copy)?node-id=0-1&t=L23eJaKns0UW4OQ3-0" target="_blank">
 <img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
 </a>
 <a href="./ProjectPomodoroTimer/" target="_blank">
