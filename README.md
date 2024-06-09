@@ -29,7 +29,7 @@ adicionar e remover itens de uma listagem, com intuito de ajudar na produtividad
 <a href="./ProjectChallengeToDoList/" target="_blank">
 <img src="https://user-images.githubusercontent.com/71772559/178192378-234b9c46-7e31-47fb-8ddf-245617d8b198.png" />
 </a>
-<a href="https://projectchallengetotolist-mand.vercel.app/" target="_blank">
+<a href="https://projectchallengetodolist-mand.vercel.app" target="_blank">
 <img src="https://user-images.githubusercontent.com/71772559/178192066-d52e0cf7-906e-4baa-80f3-4b49dde153c0.png" />
 </a>
 
